@@ -1,0 +1,52 @@
+/* CSS reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Style */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main { 
+    text-align: center;
+    width: 90%;
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main p {
+    font-size: 20px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #F4B400;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    transition: background-color .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0F9D58;
+}
